@@ -1,0 +1,86 @@
+@import 'fonts.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: url('../images/header-bg.png') no-repeat center center / cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav {
+    background: #322E41;
+}
+
+.header__nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-link {
+    display: inline-block;
+    padding: 23px 14px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'RR';
+    transition: .5s;
+}
+
+.header__nav-link:hover {
+    background: #fff;
+    color: #D47300;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__content-title {
+    color: #ffff;
+    font-size: 50px;
+    line-height: 59px;
+    font-family: 'RB';
+    margin-bottom: 15px;
+}
+
+.header__content-description {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'RR';
+}
+
+
+
+.header__content-span {
+    font-family: 'RB';
+}
+
+
